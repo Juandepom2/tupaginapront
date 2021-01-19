@@ -1,0 +1,189 @@
+
+ body{
+   background-color:black;
+  
+ }
+  
+
+
+
+ 
+  .primer{
+
+  float: left;
+min-height: 90%;
+    Font-family: 'Domine', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color:rgb(206, 191, 191);
+  width: 100%;
+  
+   
+}
+  
+
+.titulo{
+background-color: black;
+ 
+float: left;
+   align-content: inherit;
+     height: 100%;
+     padding: 3.7%;
+  
+  Font-family: 'Domine', serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+ color:white;
+  width: 100%;
+  transition: .8s color;
+  transition: .8s background-color .8s;
+  
+}
+.titulo:hover{
+ 
+  background-color: white;
+  color: black;
+}
+.info{
+
+ 
+height:50%;
+float: left;
+ 
+    Font-family: 'Domine', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color:rgb(206, 191, 191);
+  width: 50%;
+}
+.tienda{
+     
+  height:10%;
+  float: left;
+    
+    width: 45%;
+  }
+.informacion{
+  background-color :palevioletred;
+border-color: rgb(175, 89, 118);
+  float: left;
+ 
+ padding: 1%;
+ align-content: center;
+  margin: 3%;
+      Font-family: 'Domine', serif;
+      font-family: 'Merriweather', serif;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Playfair Display', serif;
+      color:wheat;
+    width: 50%;
+    text-align: center;
+    max-height: 30px;
+    overflow: hidden;
+    transition: 1.8s max-height;
+  }
+  .informacion:hover{
+    max-height: 567px;
+ }
+ 
+.casi{
+  background-color :palevioletred;
+border-color: rgb(175, 89, 118);
+  float: center;
+ padding: 12%;
+ align-content: center;
+ margin-top: 23%;
+  padding-top: 3%;
+      Font-family: 'Domine', serif;
+      font-family: 'Merriweather', serif;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Playfair Display', serif;
+      color:wheat;
+    width: 60%;
+    text-align: center;
+    max-height: 30%;
+    overflow: hidden;
+    transition: 1.8s width;
+  }
+  .casi:hover{
+    width: 100%;
+
+  }
+  .mapa{
+    max-width: 100%;
+    height: 100%;
+  }
+  body{
+    background-color: black;
+   }
+
+ 
+ 
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+body{
+background-color:black;
+}
+
+.info {
+  color: white;
+  font:1em/1 sans-serif;
+  text-align: center;
+  text-align: justify;
+}
+
+.info a{
+  color: white;
+}
+
+svg{
+    text-align: center;
+  width: 280px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}
+.cont{
+    
+    width: 100%;
+
+  background-color: thistle;
+
+    
+    
+    color: rgb(192, 120, 160);
+    float: left;
+   
+      
+   
+      float: center;
+     padding: 12%;
+     align-content: center;
+     margin-top: 2%;
+      padding-top: 3%;
+          Font-family: 'Domine', serif;
+          font-family: 'Merriweather', serif;
+          font-family: 'Noto Sans JP', sans-serif;
+          font-family: 'Playfair Display', serif;
+          color :palevioletred;
+        width: 60%;
+        text-align: center;
+        max-height: 30%;
+        overflow: hidden;
+        transition: 1.8s width;
+      }
+      .cont:hover{
+        width: 100%;
+      }
+ 
+ 
